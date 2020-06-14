@@ -1,0 +1,37 @@
+body {
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    border-radius: 0;
+    background-color: #8d8d8d;
+    border: 0;
+}
+
+div.navbar-header > div.navbar-brand >a{
+    font-size: 1.8em;
+    color: black;
+    font-weight: bold;
+}
+
+
+div.navbar-header > button.navbar-toggle > span.icon-bar{
+    background-color: #0f0f0f
+}
+
+
+div#collapsable-nav > ul#nav-list>li.visible-xs > a {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+div#collapsable-nav > ul#nav-list>li.visible-xs {
+    margin-bottom: 10px;
+}
+
+div.menu-content{
+    background-color: #8d8d8d;
+    margin-bottom: 10px;
+}
